@@ -82,10 +82,10 @@ export default defineConfig({
             {
               items: [
                 { text: "注册指南", link: "/reg" },
-                { text: "科技服介绍", link: "/get-start" },
                 { text: "赞助我们", link: "/pay" },
                 {
                   text: "传奇人物榜",
+                  link: "/heros",
                   items: [
                     { text: "《装比哥》", link: "/heros/yuxudan" },
                     { text: "《嘴硬哥》", link: "/heros/hanliang" },
