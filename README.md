@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://littleskin.cn/favicon.png" width="64" />
+<img src="https:/docs.yealqp.fun/favicon.ico" width="64" />
 
-# LittleSkin Manual
+# Yealqp Docs
 
-<https://manual.littlesk.in/>
+<https://docs.yealqp.fun/>
 
 </div>
