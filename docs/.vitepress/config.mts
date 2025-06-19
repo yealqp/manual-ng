@@ -7,7 +7,7 @@ export default defineConfig({
   title: "Yea帮助文档",
   description: "Yea帮助文档",
   head: [
-    ["link", { rel: "icon", href: "/favicon.png" }],
+    ["link", { rel: "icon", href: "/favicon.ico" }],
     [
       "script",
       {
@@ -48,7 +48,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: "/favicon.png",
+    logo: "/favicon.ico",
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: "BYS皮肤站", link: "https://skin.yealqp.fun/" }],
 
@@ -66,9 +66,9 @@ export default defineConfig({
     lastUpdated: {
       text: "上次更新于",
     },
-    outline: {
-      label: "在此页面上",
-    },
+   outline: {
+     label: "在此页面上的内容",
+   },
     editLink: {
       pattern: "https://github.com/yealqp/manual-ng",
       text: "帮助我们完善这个页面",

@@ -9,7 +9,6 @@ sidebar_position: 1
 
 ## 快速导航
 
-- [科技服介绍](get-start) - 了解我们的科技服特色
 - [注册指南](reg) - 如何注册并开始游戏
 - [传奇人物](heros/yuxudan) - 查看传奇乐子人
 
