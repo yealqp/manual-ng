@@ -3,8 +3,7 @@ id: hanliang
 title: 《嘴硬哥》
 sidebar_position: 5
 ---
-![头像](/img/韩亮大头照.jpg)
-
+![头像](../public/韩亮大头照.jpg)
 ## 基本信息
 
 - 姓名 ***韩亮***

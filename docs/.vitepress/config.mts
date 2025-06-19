@@ -27,7 +27,7 @@ export default defineConfig({
 
   lastUpdated: true,
   sitemap: {
-    hostname: "https://manual.littlesk.in",
+    hostname: "https://docs.yealqp.fun",
   },
 
   lang: "zh",
@@ -50,14 +50,7 @@ export default defineConfig({
   themeConfig: {
     logo: "/favicon.png",
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "返回 LittleSkin", link: "https://littlesk.in/" },
-      {
-        text: "社区支持机器人",
-        link: "https://bot-manual.commspt.littlesk.in/",
-      },
-      { text: "赞助支持", link: "https://afdian.com/a/tnqzh123" },
-    ],
+    nav: [{ text: "BYS皮肤站", link: "https://skin.yealqp.fun/" }],
 
     docFooter: {
       prev: "上一页",
@@ -77,77 +70,29 @@ export default defineConfig({
       label: "在此页面上",
     },
     editLink: {
-      pattern:
-        "https://github.com/LittleSkinChina/manual-ng/edit/master/docs/:path",
+      pattern: "https://github.com/yealqp/manual-ng",
       text: "帮助我们完善这个页面",
     },
-    search: {
-      provider: "algolia",
-      options: {
-        appId: "8GVX0ZBWG5",
-        // "This is the public API key which can be safely used in your frontend code." - Algolia Dashboard
-        apiKey: "cdcbecb7692da969deaecbe7e6297924",
-        indexName: "littleskin",
-        locales: {
-          root: {
-            placeholder: "搜索文档",
-            translations: {
-              button: {
-                buttonText: "搜索文档",
-                buttonAriaLabel: "搜索文档",
-              },
-              modal: {
-                searchBox: {
-                  resetButtonTitle: "清除查询条件",
-                  resetButtonAriaLabel: "清除查询条件",
-                  cancelButtonText: "取消",
-                  cancelButtonAriaLabel: "取消",
-                },
-                startScreen: {
-                  recentSearchesTitle: "搜索历史",
-                  noRecentSearchesText: "没有搜索历史",
-                  saveRecentSearchButtonTitle: "保存至搜索历史",
-                  removeRecentSearchButtonTitle: "从搜索历史中移除",
-                  favoriteSearchesTitle: "收藏",
-                  removeFavoriteSearchButtonTitle: "从收藏中移除",
-                },
-                errorScreen: {
-                  titleText: "无法获取结果",
-                  helpText: "你可能需要检查你的网络连接",
-                },
-                footer: {
-                  selectText: "选择",
-                  navigateText: "切换",
-                  closeText: "关闭",
-                  searchByText: "搜索服务提供者：",
-                },
-                noResultsScreen: {
-                  noResultsText: "无法找到相关结果",
-                  suggestedQueryText: "你可以尝试查询",
-                  reportMissingResultsText: "你认为该查询应该有结果？",
-                  reportMissingResultsLinkText: "点击反馈",
-                },
-              },
-            },
-          },
-        },
-      },
-    },
-
     sidebar: {
       "/": [
         {
-          text: "简介",
+          text: "介绍",
           link: "/",
           items: [
             {
-              text: "传奇人物榜",
-              link: "/heros/",
               items: [
-                { text: "《装比哥》", link: "/heros/yuxudan" },
-                { text: "《嘴硬哥》", link: "/heros/hanliang" },
-                { text: "《说话姐》", link: "/heros/liusheng" },
-                { text: "《应当哥》", link: "/heros/yasai" },
+                { text: "注册指南", link: "/reg" },
+                { text: "科技服介绍", link: "/get-start" },
+                { text: "赞助我们", link: "/pay" },
+                {
+                  text: "传奇人物榜",
+                  items: [
+                    { text: "《装比哥》", link: "/heros/yuxudan" },
+                    { text: "《嘴硬哥》", link: "/heros/hanliang" },
+                    { text: "《说话姐》", link: "/heros/liusheng" },
+                    { text: "《应当哥》", link: "/heros/yasai" },
+                  ],
+                },
               ],
             },
           ],
@@ -156,7 +101,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/LittleSkinChina/manual-ng" },
+      { icon: "github", link: "https://github.com/yealqp/manual-ng" },
     ],
   },
   vite: {
