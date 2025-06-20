@@ -142,5 +142,9 @@ export default defineConfig({
         "@nolebase/vitepress-plugin-highlight-targeted-heading",
       ],
     },
+    server: {
+    host: '0.0.0.0',
+    allowedHosts: [''],
+  },
   },
 });
