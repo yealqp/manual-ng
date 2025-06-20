@@ -3,7 +3,7 @@ id: liusheng
 title: 《说话姐》
 sidebar_position: 6
 ---
-![头像](../liusheng.jpg)
+![头像](/liusheng.jpg)
 							
 
 ## 基本信息

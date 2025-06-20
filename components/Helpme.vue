@@ -28,7 +28,7 @@ const props = withDefaults(
 
         <div class="card-container">
             <div class="support-card">
-                <a href="/user-group" target="_blank">
+                <a href="https://qm.qq.com/cgi-bin/qm/qr?k=ErXOpTngnjsXb4PNvov6gcEnc1rm9YlG&jump_from=webapi&authKey=hf3lX1X7h1eQoGn/2ZNH6x3CE2UhAFG9Ib5njXNPKEkqCuS5eRZ2TnkbQuZvF6MR" target="_blank">
                     <div class="support-card-body">
                         <div class="title-text text">
                             🙋 加入用户交流群
@@ -37,19 +37,10 @@ const props = withDefaults(
                 </a>
             </div>
             <div class="support-card">
-                <a href="/email" target="_blank">
+                <a href="mailto:yealqp@163.com" target="_blank">
                     <div class="support-card-body">
                         <div class="title-text text">
                             📬️ 发送邮件工单
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div v-if="props.afdian" class="support-card">
-                <a href="https://afdian.com/a/tnqzh123" target="_blank">
-                    <div class="support-card-body">
-                        <div class="title-text text">
-                            🧑‍🔬 1v1 技术支持
                         </div>
                     </div>
                 </a>

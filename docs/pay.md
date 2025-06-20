@@ -19,9 +19,9 @@
 
 | 平台 | 收款码 |
 |------|------|
-| 微信支付 |![wx](../wxskm.png) |
-| 支付宝 | ![zfb](../zfbskm.png) |
-| QQ支付 | ![qq](../qqskm.png) |
+| 微信支付 |![wx](/wxskm.png) |
+| 支付宝 | ![zfb](/zfbskm.png) |
+| QQ支付 | ![qq](/qqskm.png) |
 
 ## 📊 资金使用透明度
 

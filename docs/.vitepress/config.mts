@@ -66,9 +66,9 @@ export default defineConfig({
     lastUpdated: {
       text: "上次更新于",
     },
-   outline: {
-     label: "在此页面上的内容",
-   },
+    outline: {
+      label: "在此页面上的内容",
+    },
     editLink: {
       pattern: "https://github.com/yealqp/manual-ng",
       text: "帮助我们完善这个页面",
@@ -81,18 +81,45 @@ export default defineConfig({
           items: [
             {
               items: [
-                { text: "注册指南", link: "/reg" },
                 { text: "赞助我们", link: "/pay" },
+              ],
+            },
+            {
+              text: "BYS相关",
+              items: [
+                { text: "注册指南", link: "/faq/reg" },
                 {
-                  text: "传奇人物榜",
-                  link: "/heros",
+                  text: "政策条款",
+                  link: "/policies/",
                   items: [
-                    { text: "《装比哥》", link: "/heros/yuxudan" },
-                    { text: "《嘴硬哥》", link: "/heros/hanliang" },
-                    { text: "《说话姐》", link: "/heros/liusheng" },
-                    { text: "《应当哥》", link: "/heros/yasai" },
+                    { text: "用户服务条款", link: "/policies/tos" },
+                    { text: "隐私声明", link: "/policies/privacy" },
                   ],
                 },
+                {
+                  text: "疑难杂症",
+                  items: [
+                    { text: "遇到问题了咋办", link: "/problems" },
+                    {
+                      text: "常见问题解答",
+                      link: "/faq/",
+                      items: [
+                        { text: "站点使用相关", link: "/faq/site" },
+                        { text: "游戏内加载相关", link: "/faq/in-game" },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              text: "传奇人物榜",
+              link: "/heros",
+              items: [
+                { text: "《装比哥》", link: "/heros/yuxudan" },
+                { text: "《嘴硬哥》", link: "/heros/hanliang" },
+                { text: "《说话姐》", link: "/heros/liusheng" },
+                { text: "《应当哥》", link: "/heros/yasai" },
               ],
             },
           ],

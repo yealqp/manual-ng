@@ -3,7 +3,7 @@ id: yuxudan
 title: 《装比哥》
 sidebar_position: 4
 ---
-![头像](../于总大头照.jpg)
+![头像](/于总大头照.jpg)
 
 ## 基本信息
 
